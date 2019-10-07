@@ -1,0 +1,314 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+
+margin: 0;
+
+}
+
+header {
+display: flex;
+flex-direction: column;
+margin: auto;
+}
+
+header a {
+align-self: center;
+}
+
+header ul{
+
+display: flex;
+justify-content: space-around;
+padding: 0;
+margin: auto 200px;
+}
+
+header ul li{
+
+list-style: none;
+padding: 10px;
+
+}
+
+header ul li a {
+
+text-decoration: none;
+font-size: 16pt;
+color: black;
+padding: 10px;
+
+}
+
+header ul li a:hover {
+
+background-color: grey;
+color: white;
+
+}
+
+div.UpLink {
+
+position: fixed;
+right: 0;
+top: 400px;
+
+}
+
+div.UpLink a{
+
+padding: 10px;
+margin: 10px;
+text-decoration: none;
+color: white;
+background-color: grey;
+
+}
+
+div.Intro{
+
+background-image: url(https://cposc.org/wp-content/uploads/2018/02/homepage-hero.jpg);
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 700px;
+
+
+}
+
+div.Intro h1, div.Intro p{
+
+color: white;
+
+}
+
+div.Intro h1{
+
+font-size: 60pt;
+
+}
+
+div.Intro p{
+
+font-size: 20pt;
+
+}
+
+div.Intro div{
+
+display: flex;
+justify-content: space-around;
+align-self: stretch;
+align-items: center;
+
+}
+
+div.Intro div div{
+
+background-color: #768591;
+display: flex;
+justify-content: center;
+width: 45%;
+border-radius: 10px;
+height: 200px;
+
+}
+
+div.Intro div div div{
+
+display: flex;
+flex-direction:  column;
+align-items: flex-start;
+
+}
+
+div.Intro div div div h2, div.Intro div div div p{
+
+color: white;
+margin: 0;
+
+}
+
+div.Intro div div div h2{
+
+font-size: 14pt;
+
+}
+
+div.Intro div div div p{
+
+font-size: 16pt;
+
+}
+
+section.Info {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+section.Info h2 {
+
+color: grey;
+padding: 10px;
+
+}
+
+section.Info div.MoreInfo{
+
+display: flex;
+justify-content: space-around;
+
+}
+
+section.Info div.MoreInfo div{
+
+width: 30%;
+
+}
+
+section.Info div.Connect{
+
+display: flex;
+justify-content: space-around;
+width: 95%;
+background-color: #24648c;
+
+}
+
+section.Info div.Connect div{
+
+  display: flex;
+  width: 50%;
+
+}
+
+section.Info div.Connect div h3{
+
+color: white;
+
+}
+
+section.Info div.Connect ul{
+
+width: 50%;
+display: flex;
+justify-content: space-around;
+padding: 0;
+
+}
+
+section.Info div.Connect ul li{
+
+list-style: none;
+width: 25%;
+
+}
+
+section.Info div.Connect ul li a{
+
+width: 25%;
+
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+
+background-color: #393939;
+display: flex;
+flex-direction: column;
+
+}
+
+footer div{
+
+display: flex;
+
+}
+
+footer div section.CodeOfConduct {
+
+width: 50%;
+display: flex;
+flex-direction: column;
+padding: 100px;
+
+}
+
+footer div section.CodeOfConduct h2, footer section.CodeOfConduct p {
+
+color: white;
+
+}
+
+footer div section.CodeOfConduct a{
+
+text-decoration: none;
+color: lightgrey;
+
+}
+
+footer div section.FooterConnect {
+
+padding: 100px;
+width: 50%;
+
+}
+
+footer div section.FooterConnect ul {
+
+display: flex;
+padding-left: 0;
+
+}
+
+footer div section.FooterConnect ul li {
+
+list-style: none;
+padding-right: 20px;
+
+}
+
+footer div section.FooterConnect h2, footer div section.FooterConnect p {
+
+color: white;
+
+}
+
+footer section.FooterBottom {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #313131;
+
+}
+
+footer section.FooterBottom p {
+
+color: lightgrey;
+
+}
+
+footer section.FooterBottom a {
+
+text-decoration: none;
+color: lightblue;
+
+}
