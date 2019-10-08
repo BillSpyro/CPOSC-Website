@@ -7,308 +7,302 @@ html {
 }
 
 body {
-
-margin: 0;
-
+  margin: 0;
 }
 
 header {
-display: flex;
-flex-direction: column;
-margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }
 
 header a {
-align-self: center;
+  align-self: center;
 }
 
-header ul{
-
-display: flex;
-justify-content: space-around;
-padding: 0;
-margin: auto 200px;
+header ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: auto 200px;
 }
 
-header ul li{
-
-list-style: none;
-padding: 10px;
-
+header ul li {
+  list-style: none;
+  padding: 10px;
 }
 
 header ul li a {
-
-text-decoration: none;
-font-size: 16pt;
-color: black;
-padding: 10px;
-
+  text-decoration: none;
+  font-size: 16pt;
+  color: black;
+  padding: 10px;
 }
 
 header ul li a:hover {
-
-background-color: grey;
-color: white;
-
+  background-color: grey;
+  color: white;
 }
 
 div.UpLink {
-
-position: fixed;
-right: 0;
-top: 400px;
-
+  position: fixed;
+  right: 0;
+  top: 400px;
 }
 
-div.UpLink a{
-
-padding: 10px;
-margin: 10px;
-text-decoration: none;
-color: white;
-background-color: grey;
-
+div.UpLink a {
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: grey;
 }
 
-div.Intro{
-
-background-image: url(https://cposc.org/wp-content/uploads/2018/02/homepage-hero.jpg);
-display: flex;
-flex-direction: column;
-align-items: center;
-height: 700px;
-
-
+div.Intro {
+  background-image: url(https://cposc.org/wp-content/uploads/2018/02/homepage-hero.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 700px;
 }
 
-div.Intro h1, div.Intro p{
-
-color: white;
-
+div.Intro h1, div.Intro p {
+  color: white;
 }
 
-div.Intro h1{
-
-font-size: 60pt;
-
+div.Intro h1 {
+  font-size: 60pt;
 }
 
-div.Intro p{
-
-font-size: 20pt;
-
+div.Intro p {
+  font-size: 20pt;
 }
 
-div.Intro div{
-
-display: flex;
-justify-content: space-around;
-align-self: stretch;
-align-items: center;
-
+div.Intro div {
+  display: flex;
+  justify-content: space-around;
+  align-self: stretch;
+  align-items: center;
 }
 
-div.Intro div div{
-
-background-color: #768591;
-display: flex;
-justify-content: center;
-width: 45%;
-border-radius: 10px;
-height: 200px;
-
+div.Intro div div {
+  background-color: #768591;
+  display: flex;
+  justify-content: center;
+  width: 45%;
+  border-radius: 10px;
+  height: 200px;
 }
 
-div.Intro div div div{
-
-display: flex;
-flex-direction:  column;
-align-items: flex-start;
-
+div.Intro div div img {
+  width: 10%;
+  margin-right: 20px;
 }
 
-div.Intro div div div h2, div.Intro div div div p{
-
-color: white;
-margin: 0;
-
+div.Intro div div div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-div.Intro div div div h2{
-
-font-size: 14pt;
-
+div.Intro div div div h2, div.Intro div div div p {
+  color: white;
+  margin: 0;
 }
 
-div.Intro div div div p{
+div.Intro div div div h2 {
+  font-size: 14pt;
+}
 
-font-size: 16pt;
-
+div.Intro div div div p {
+  font-size: 16pt;
 }
 
 section.Info {
-
-display: flex;
-flex-direction: column;
-align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 30px;
 }
 
 section.Info h2 {
-
-color: grey;
-padding: 10px;
-
+  color: grey;
+  padding: 10px;
 }
 
-section.Info div.MoreInfo{
-
-display: flex;
-justify-content: space-around;
-
+section.Info div.MoreInfo {
+  display: flex;
+  justify-content: space-around;
 }
 
-section.Info div.MoreInfo div{
-
-width: 30%;
-
+section.Info div.MoreInfo div {
+  width: 30%;
 }
 
-section.Info div.Connect{
-
-display: flex;
-justify-content: space-around;
-width: 95%;
-background-color: #24648c;
-
+section.Info div.MoreInfo div a {
+  text-decoration: none;
+  color: grey;
 }
 
-section.Info div.Connect div{
+section.Info div.Connect {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #24648c;
+  padding: 20px;
+  border-radius: 6px;
+}
 
+section.Info div.Connect div {
   display: flex;
   width: 50%;
-
+  padding-left: 20px;
 }
 
-section.Info div.Connect div h3{
-
-color: white;
-
+section.Info div.Connect div h3 {
+  color: white;
 }
 
-section.Info div.Connect ul{
-
-width: 50%;
-display: flex;
-justify-content: space-around;
-padding: 0;
-
+section.Info div.Connect div img {
+  width: 10%;
+  padding-right: 10px;
 }
 
-section.Info div.Connect ul li{
-
-list-style: none;
-width: 25%;
-
+section.Info div.Connect ul {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
 }
 
-section.Info div.Connect ul li a{
-
-width: 25%;
-
+section.Info div.Connect ul li {
+  list-style: none;
+  width: 25%;
 }
 
+section.Info div.Connect ul li a {
+  width: 25%;
+}
 
+section.Info div.Connect ul li a img {
+  width: 25%;
+}
 
+section.Info div.Connect ul li a img:hover {
+  background-color: darkgrey;
+  border-radius: 30px;
+}
 
+section.Sponsors {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
 
+section.Sponsors div.SponsorsIntro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+section.Sponsors div.SponsorsIntro div {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
 
+section.Sponsors div.SponsorsIntro div p {
+  color: grey;
+}
 
+section.Sponsors div.SponsorsIntro a {
+  background-color: grey;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
 
+section.Sponsors div div:nth-child(1n+2) {
+  border-top: darkblue solid 1px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+section.Sponsors div div a {
+  width: 30%;
+  padding: 20px;
+}
+
+section.Sponsors div div a img {
+  width: 100%;
+}
+
+section.Sponsors div h3 {
+  display: inline;
+  border-bottom: white solid 1px;
+  margin: 0;
+  color: darkblue;
+}
 
 footer {
-
-background-color: #393939;
-display: flex;
-flex-direction: column;
-
+  background-color: #393939;
+  display: flex;
+  flex-direction: column;
 }
 
-footer div{
-
-display: flex;
-
+footer div {
+  display: flex;
 }
 
 footer div section.CodeOfConduct {
-
-width: 50%;
-display: flex;
-flex-direction: column;
-padding: 100px;
-
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
 }
 
 footer div section.CodeOfConduct h2, footer section.CodeOfConduct p {
-
-color: white;
-
+  color: white;
 }
 
-footer div section.CodeOfConduct a{
-
-text-decoration: none;
-color: lightgrey;
-
+footer div section.CodeOfConduct a {
+  text-decoration: none;
+  color: lightgrey;
 }
 
 footer div section.FooterConnect {
-
-padding: 100px;
-width: 50%;
-
+  padding: 100px;
+  width: 50%;
 }
 
 footer div section.FooterConnect ul {
-
-display: flex;
-padding-left: 0;
-
+  display: flex;
+  padding-left: 0;
 }
 
 footer div section.FooterConnect ul li {
-
-list-style: none;
-padding-right: 20px;
-
+  list-style: none;
+  padding-right: 20px;
 }
 
 footer div section.FooterConnect h2, footer div section.FooterConnect p {
-
-color: white;
-
+  color: white;
 }
 
 footer section.FooterBottom {
-
-display: flex;
-flex-direction: column;
-align-items: center;
-background-color: #313131;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #313131;
 }
 
 footer section.FooterBottom p {
-
-color: lightgrey;
-
+  color: lightgrey;
 }
 
 footer section.FooterBottom a {
-
-text-decoration: none;
-color: lightblue;
-
+  text-decoration: none;
+  color: lightblue;
 }
