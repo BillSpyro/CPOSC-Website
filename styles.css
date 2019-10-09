@@ -344,18 +344,18 @@ footer div section.FooterConnect h2, footer div section.FooterConnect p {
   color: white;
 }
 
-footer section.FooterBottom {
+footer div.FooterBottom {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #313131;
 }
 
-footer section.FooterBottom p {
+footer div.FooterBottom p {
   color: lightblue;
 }
 
-footer section.FooterBottom a {
+footer div.FooterBottom a {
   text-decoration: none;
   color: lightgrey;
 }
