@@ -313,10 +313,10 @@ footer section.FooterBottom {
 }
 
 footer section.FooterBottom p {
-  color: lightgrey;
+  color: lightblue;
 }
 
 footer section.FooterBottom a {
   text-decoration: none;
-  color: lightblue;
+  color: lightgrey;
 }
