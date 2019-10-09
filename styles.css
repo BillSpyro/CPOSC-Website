@@ -16,6 +16,10 @@ header {
   margin: auto;
 }
 
+header nav{
+  display: flex;
+}
+
 header ul {
   display: flex;
   justify-content: space-around;
@@ -39,6 +43,35 @@ header ul li a {
 header ul li a:hover {
   background-color: grey;
   color: white;
+}
+
+header ul li ul {
+
+display: flex;
+flex-direction: column;
+background-color: black;
+
+
+}
+
+header ul li ul{
+
+position: absolute;
+display: none;
+
+}
+
+header ul li:hover ul{
+
+display: block;
+
+}
+
+header ul li:hover ul li a{
+
+  color: white;
+  padding: 10px;
+
 }
 
 div.UpLink {
