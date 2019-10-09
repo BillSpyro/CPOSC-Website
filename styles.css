@@ -61,6 +61,19 @@ display: none;
 
 }
 
+header ul li ul li{
+
+padding: 0;
+
+}
+
+header ul li ul li a{
+
+display: block;
+padding: 10px;
+
+}
+
 header ul li:hover ul{
 
 display: block;
