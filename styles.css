@@ -50,15 +50,8 @@ header ul li ul {
 display: flex;
 flex-direction: column;
 background-color: black;
-
-
-}
-
-header ul li ul{
-
 position: absolute;
 display: none;
-
 }
 
 header ul li ul li{
