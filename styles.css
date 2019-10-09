@@ -12,19 +12,16 @@ body {
 
 header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   margin: auto;
-}
-
-header a {
-  align-self: center;
 }
 
 header ul {
   display: flex;
   justify-content: space-around;
+  align-self: flex-end;
+  margin: 0;
   padding: 0;
-  margin: auto 200px;
 }
 
 header ul li {
@@ -120,11 +117,17 @@ div.Intro div div div p {
   font-size: 16pt;
 }
 
+section.Info, section.Sponsors {
+
+max-width: 1000px;
+margin: auto;
+
+}
+
 section.Info {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 30px;
 }
 
 section.Info h2 {
@@ -199,7 +202,6 @@ section.Info div.Connect ul li a img:hover {
 section.Sponsors {
   display: flex;
   flex-direction: column;
-  margin: 0px 30px;
   padding-bottom: 30px;
 }
 
