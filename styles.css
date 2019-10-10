@@ -8,15 +8,17 @@ html {
 
 body {
   margin: 0;
+  background-color: #f7bf08;
 }
 
 header {
   display: flex;
   justify-content: space-around;
   margin: auto;
+  background-color: #363535;
 }
 
-header nav{
+header nav {
   display: flex;
 }
 
@@ -38,6 +40,7 @@ header ul li a {
   font-size: 16pt;
   color: black;
   padding: 10px;
+  color: #f7bf08;
 }
 
 header ul li a:hover {
@@ -46,38 +49,29 @@ header ul li a:hover {
 }
 
 header ul li ul {
-
-display: flex;
-flex-direction: column;
-background-color: black;
-position: absolute;
-display: none;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  position: absolute;
+  display: none;
 }
 
-header ul li ul li{
-
-padding: 0;
-
+header ul li ul li {
+  padding: 0;
 }
 
-header ul li ul li a{
-
-display: block;
-padding: 10px;
-
-}
-
-header ul li:hover ul{
-
-display: block;
-
-}
-
-header ul li:hover ul li a{
-
-  color: white;
+header ul li ul li a {
+  display: block;
   padding: 10px;
+}
 
+header ul li:hover ul {
+  display: block;
+}
+
+header ul li:hover ul li a {
+  color: #f7bf08;
+  padding: 10px;
 }
 
 div.UpLink {
@@ -90,8 +84,8 @@ div.UpLink a {
   padding: 10px;
   margin: 10px;
   text-decoration: none;
-  color: white;
-  background-color: grey;
+  color: #f7bf08;
+  background-color: #363535;
 }
 
 div.Intro {
@@ -105,7 +99,7 @@ div.Intro {
 }
 
 div.Intro h1, div.Intro p {
-  color: white;
+  color: #f7bf08;
 }
 
 div.Intro h1 {
@@ -124,12 +118,17 @@ div.Intro div {
 }
 
 div.Intro div div {
-  background-color: #768591;
+  background-color: #363535;
   display: flex;
   justify-content: center;
   width: 40%;
   border-radius: 10px;
   height: 150px;
+  background: rgba(36, 35, 35, 0.5);
+}
+
+div.Intro div div:hover {
+  background: rgba(36, 35, 35, 1);
 }
 
 div.Intro div div img {
@@ -144,7 +143,7 @@ div.Intro div div div {
 }
 
 div.Intro div div div h2, div.Intro div div div p {
-  color: white;
+  color: #f7bf08;
   margin: 0;
 }
 
@@ -157,31 +156,30 @@ div.Intro div div div p {
 }
 
 section.Info, section.Sponsors {
-
-max-width: 1000px;
-margin: auto;
-
+  max-width: 1000px;
+  margin: auto;
 }
 
 section.Info {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   align-items: center;
 }
 
 section.Info h2 {
-  color: grey;
   padding: 10px;
+  width: 40%;
 }
 
 section.Info div.MoreInfo {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
-  padding-bottom: 30px;
+  width: 40%;
 }
 
 section.Info div.MoreInfo div {
-  width: 30%;
+  width: 100%;
 }
 
 section.Info div.MoreInfo div a {
@@ -192,16 +190,19 @@ section.Info div.MoreInfo div a {
 section.Info div.Connect {
   display: flex;
   justify-content: space-around;
-  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
   background-color: #24648c;
   padding: 20px;
   border-radius: 6px;
+  margin: 10px;
 }
 
 section.Info div.Connect div {
   display: flex;
+  flex-direction: column;
   width: 50%;
-  padding-left: 20px;
 }
 
 section.Info div.Connect div h3 {
@@ -209,28 +210,28 @@ section.Info div.Connect div h3 {
 }
 
 section.Info div.Connect div img {
-  width: 10%;
-  padding-right: 10px;
+  width: 100%;
 }
 
 section.Info div.Connect ul {
   width: 50%;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   padding: 0;
 }
 
 section.Info div.Connect ul li {
   list-style: none;
-  width: 25%;
+  width: 100%;
 }
 
 section.Info div.Connect ul li a {
-  width: 25%;
+  width: 100%;
 }
 
 section.Info div.Connect ul li a img {
-  width: 25%;
+  width: 100%;
 }
 
 section.Info div.Connect ul li a img:hover {
@@ -251,32 +252,39 @@ section.Sponsors div.SponsorsIntro {
   padding: 30px 0;
 }
 
-section.Sponsors div.SponsorsIntro div {
+section.Sponsors div.SponsorsContent {
   display: flex;
-  align-items: flex-start;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 
-section.Sponsors div.SponsorsIntro div h2 {
-
-margin: 10px 0;
-
+section.Sponsors div.SponsorsContent div {
+  width: 50%;
+  padding: 10px;
+  border: black 1px solid;
 }
 
-section.Sponsors div.SponsorsIntro div p {
-  color: grey;
+section.Sponsors div.SponsorsContent div div {
+  width: 100%;
+  height: 200px;
+}
+
+section.Sponsors div.SponsorsContent div h2 {
+  margin: 10px 0;
+}
+
+section.Sponsors div.SponsorsContent div p {
   margin: 10px 0;
 }
 
 section.Sponsors div.SponsorsIntro a {
-  background-color: grey;
-  color: white;
+  background-color: #f7bf08;
+  border: #363535 3px solid;
+  color: #363535;
   text-decoration: none;
   padding: 20px;
 }
 
-section.Sponsors div div:nth-child(1n+2) {
-  border-top: darkblue solid 1px;
+section.Sponsors div.SponsorsContent div {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -284,7 +292,7 @@ section.Sponsors div div:nth-child(1n+2) {
 }
 
 section.Sponsors div div a {
-  width: 30%;
+  width: 33%;
   padding: 20px;
 }
 
@@ -294,9 +302,7 @@ section.Sponsors div div a img {
 
 section.Sponsors div h3 {
   display: inline;
-  border-bottom: white solid 1px;
   margin: 0;
-  color: darkblue;
 }
 
 footer {
@@ -310,10 +316,10 @@ footer div {
 }
 
 footer div section.CodeOfConduct {
-  width: 50%;
+  width: 80%;
   display: flex;
   flex-direction: column;
-  padding: 100px;
+  padding-left: 10px;
 }
 
 footer div section.CodeOfConduct h2, footer section.CodeOfConduct p {
@@ -326,18 +332,20 @@ footer div section.CodeOfConduct a {
 }
 
 footer div section.FooterConnect {
-  padding: 100px;
-  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
 }
 
 footer div section.FooterConnect ul {
   display: flex;
+  flex-direction: column;
   padding-left: 0;
 }
 
 footer div section.FooterConnect ul li {
   list-style: none;
-  padding-right: 20px;
 }
 
 footer div section.FooterConnect h2, footer div section.FooterConnect p {
@@ -346,13 +354,12 @@ footer div section.FooterConnect h2, footer div section.FooterConnect p {
 
 footer div.FooterBottom {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-around;
   background-color: #313131;
 }
 
 footer div.FooterBottom p {
-  color: lightblue;
+  color: white;
 }
 
 footer div.FooterBottom a {
