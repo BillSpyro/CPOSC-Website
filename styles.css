@@ -20,6 +20,7 @@ header {
 
 header nav {
   display: flex;
+  align-self: center;
 }
 
 header ul {
