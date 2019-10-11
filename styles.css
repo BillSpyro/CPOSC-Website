@@ -20,6 +20,7 @@ header {
 
 header nav {
   display: flex;
+  align-self: center;
 }
 
 header ul {
@@ -38,14 +39,13 @@ header ul li {
 header ul li a {
   text-decoration: none;
   font-size: 16pt;
-  color: black;
   padding: 10px;
-  color: #f7bf08;
+  color: white;
 }
 
 header ul li a:hover {
-  background-color: grey;
-  color: white;
+  color: #f7bf08;
+  border-top: red solid 3px;
 }
 
 header ul li ul {
@@ -70,8 +70,12 @@ header ul li:hover ul {
 }
 
 header ul li:hover ul li a {
-  color: #f7bf08;
+  color: white;
   padding: 10px;
+}
+
+header ul li:hover ul li a:hover {
+color: #f7bf08;
 }
 
 div.UpLink {
